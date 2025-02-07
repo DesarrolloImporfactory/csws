@@ -1,0 +1,40 @@
+.cps-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cps-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cps-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.cps-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.cps-image img {
+    width: 300px;
+    height: 300px;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.cps-read-more {
+    display: block;
+    background: #0073aa;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
